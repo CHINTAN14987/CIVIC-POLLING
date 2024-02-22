@@ -9,7 +9,6 @@ const Polling = (props) => {
     `${URLS.VOTER_INFO_URL}&address=${inputValue}&electionId=${electionID}`
   );
 
-  console.log(data, "newData");
   const headingStyle = { margin: "3rem 0", fontSize: "40px" };
   const monthNames = [
     "January",

@@ -3,7 +3,6 @@ import { Button, Spin, Table } from "antd";
 import { useNavigate } from "react-router-dom";
 
 const VotersElectionsDetail = ({ loading, data, error, address }) => {
-console.log(data, "data")
   const navigate = useNavigate();
   const columns = [
     {

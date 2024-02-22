@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import ElectionPage from "./pages/election-page";
 import VoterInfo from "./pages/voter-info";

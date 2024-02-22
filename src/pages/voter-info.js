@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import { Button, Input } from "antd";
 import useFetch from "../useFetch";
-import useFetch1 from "../useFetch";
 import { URLS } from "../constants/url";
 import VotersElectionsDetail from "../components/VotersElectionsDetail";
-import { Link } from "react-router-dom";
 import Polling from "../components/Polling";
 
 const VoterInfo = () => {

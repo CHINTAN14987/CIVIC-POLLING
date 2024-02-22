@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from "react";
-import { Button, Input } from "antd";
+import React from "react";
+import { Button } from "antd";
 import useFetch from "../useFetch";
 
 import { URLS } from "../constants/url";
